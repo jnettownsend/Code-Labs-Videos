@@ -7,11 +7,13 @@ export default class home{
     }
 
 // render elements onto the page
-render (){
-    let appElement = document.getElementById('app');
-    appElement.innerHTML += `
-        <h1 class='text-center'>Social Media Page</h1>
-    `
-}
+    render (){
+        let appElement = document.getElementById("app");
+
+        appElement.insertAdjacentHTML(
+            'beforeend', 
+            `<h1 class='text-center'>Social Media Page</h1>`
+        );
+    }
 
 }

@@ -1,7 +1,5 @@
-// Initializing the view -> Home
-
-import home from "./pages/home";
-import Navbar from "./shared/navbar";
+import home from "./pages/home.js";
+import Navbar from "./shared/navbar.js";
 
 new Navbar();
 new home();
